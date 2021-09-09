@@ -1,3 +1,53 @@
 body{
+	font-family: 'Montserrat', sans-serif;
 	background: black;
+	color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo img{
+	width: 300px;
+	padding: 20px;
+}
+.profile img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 750px;
+}
+h1{
+	color: white;
+	position: absolute;
+	top: 285px;
+	right: 400px;
+	font-size: 40pt;
+}
+.text1{
+	color: white;
+	font-size: 35pt;
+	margin-block: auto;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.blok-gebarentaal{
+	display: grid;
+	grid-template-areas: 
+	'text text'
+	'info video'
+}
+.blok-info{
+	grid-area: info;
+	margin-left: 25%;
+	width: 50%;
+	text-align: right;
+
+}
+.blok-video{
+	grid-area: video;
+
+}
+.text1{
+	grid-area: text;
 }
