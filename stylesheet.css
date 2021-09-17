@@ -23,7 +23,7 @@ h1{
 	right: 400px;
 	font-size: 40pt;
 }
-.text1{
+.text1, .text2{
 	color: white;
 	font-size: 35pt;
 	margin-block: auto;
@@ -50,4 +50,22 @@ h1{
 }
 .text1{
 	grid-area: text;
+}
+.blok-photo2 img{
+	max-width: 75%;
+}
+.blok-projecten{
+	display: grid;
+	grid-template-areas: 
+	'text2 text2'
+	'photo2 info2'
+}
+.text2{
+	grid-area: text2;
+}
+.blok-info2{
+	grid-area: info2;
+}
+.blok-photo2{
+	grid-area: photo2;
 }
