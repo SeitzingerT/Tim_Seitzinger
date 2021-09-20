@@ -2,6 +2,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	background: black;
 	color: white;
+	font-style: normal;
 }
 .logo img{
 	width: 300px;
@@ -70,6 +71,14 @@ hr{
 	'info4 photo4 figma4'
 	'info5 photo5 figma5'
 }
+.blok-projecten a{
+	color: white;
+	text-decoration: none;
+}
+.blok-projecten a:hover{
+	color: #94c9a9;
+	text-decoration: underline;
+}
 
 .text2{
 	grid-area: text2;
@@ -122,10 +131,11 @@ footer{
 	background: linear-gradient(180deg, #000000 0%, #888888 100%);
 	height: 300px;
 	padding: 50px;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	display: grid;
-	grid-template-columns: 50%;
+	grid-template-columns: 35% 35% 35%;
 	grid-template-areas: 
 	'f1 f2 f3'
 }
