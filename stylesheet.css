@@ -23,6 +23,13 @@ h1{
 	right: 400px;
 	font-size: 40pt;
 }
+hr{
+	width: 25%;
+	size: "2";
+	color: white;
+	margin-top: 100px;
+	margin-bottom: 25px;
+}
 .text1, .text2{
 	color: white;
 	font-size: 35pt;
@@ -51,19 +58,22 @@ h1{
 .text1{
 	grid-area: text;
 }
-.blok-photo2 img{
-	max-width: 75%;
+#photo{
+	max-width: 100%;
 }
 .blok-projecten{
 	margin-left: auto;
 	margin-right: auto;
 	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-template-rows: auto;
+	grid-template-columns: 20% 40% 40%;
 	grid-template-areas: 
-	'text2 text2'
-	'photo2 info2'
+	'text2 text2 text2'
+	'info2 photo2 figma2'
+	'info3 photo3 figma3'
+	'info4 photo4 figma4'
+	'info5 photo5 figma5'
 }
+
 .text2{
 	grid-area: text2;
 }
@@ -73,19 +83,36 @@ h1{
 .blok-photo2{
 	grid-area: photo2;
 }
-button{
-	background-color: white; /* Green */
-	border: 2px solid white;
-	  color: black;
-	  padding: 15px 32px;
-	  text-align: center;
-	  text-decoration: none;
-	  display: inline-block;
-	  font-size: 16px;
-	  border-radius: 10px;
+.blok-figma2{
+	grid-area: figma2;
 }
-button:hover{
-	background-color: black;
-	color: white;
-	border: 2px solid #4CAF50;
+.blok-info3{
+	grid-area: info3;
+}
+.blok-photo3{
+	grid-area: photo3;
+}
+.blok-figma3{
+	grid-area: figma3;
+}
+.blok-info4{
+	grid-area: info4;
+}
+.blok-photo4{
+	grid-area: photo4;
+}
+.blok-figma4{
+	grid-area: figma4;
+}
+.blok-info5{
+	grid-area: info5;
+}
+.blok-photo5{
+	grid-area: photo5;
+}
+.blok-figma5{
+	grid-area: figma5;
+}
+#title{
+	font-size: 20pt;
 }
