@@ -191,7 +191,7 @@ header{
 	margin-left: auto;
 	margin-right: auto;
 	display: grid;
-	grid-template-columns: 100%;
+	grid-template-columns: 100% 100% 0%;
 	grid-template-areas: 
 	'text2'
 	'info2'
@@ -202,4 +202,7 @@ header{
 	'photo4'
 	'info5'
 	'photo5'
+}
+iframe{
+	display: block;
 }
