@@ -191,7 +191,7 @@ header{
 	margin-left: auto;
 	margin-right: auto;
 	display: grid;
-	grid-template-columns: 100% 100% 0%;
+	grid-template-columns: 100% 100%;
 	grid-template-areas: 
 	'text2'
 	'info2'
