@@ -203,6 +203,7 @@ header{
 	'info5'
 	'photo5'
 }
-iframe{
-	display: block;
+.blok-figma5{
+	display: none;
 }
+
