@@ -154,3 +154,10 @@ footer a{
 header{
 	background: linear-gradient(360deg, #000000 0.91%, #888888 98.83%);
 }
+@media screen and (max-width: 800px) {
+	.profile img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: 100%;
+}
