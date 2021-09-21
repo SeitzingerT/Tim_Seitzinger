@@ -187,3 +187,15 @@ header{
 .blok-video iframe{
 	width: 95%;
 }
+.blok-projecten{
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-areas: 
+	'text2 text2'
+	'info2 photo2'
+	'info3 photo3'
+	'info4 photo4'
+	'info5 photo5';
+}
