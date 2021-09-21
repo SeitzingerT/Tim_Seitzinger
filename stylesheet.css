@@ -19,7 +19,7 @@ h1{
 	position: absolute;
 	top: 285px;
 	right: 400px;
-	font-size: 40pt;
+	font-size: 40pt vw;
 }
 hr{
 	width: 25%;
@@ -205,5 +205,12 @@ header{
 }
 .blok-figma2, .blok-figma3, .blok-figma4, .blok-figma5{
 	display: none;
+}
+h1{
+	color: white;
+	position: absolute;
+	top: 310px;
+	right: 80px;
+	font-size: 20pt ;
 }
 
