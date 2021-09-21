@@ -161,4 +161,8 @@ header{
 	.profile img{
 	width: 100%;
 	height: 100%;
-}
+	}
+	.logo img{
+	max-width: 100px;
+	padding: 20px;
+	}
