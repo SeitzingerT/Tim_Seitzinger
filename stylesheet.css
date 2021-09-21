@@ -158,11 +158,32 @@ header{
 	body{
 		width: 100%;
 	}
+	main{
+		width: 90%;
+	}
 	.profile img{
 	width: 100%;
 	height: 100%;
 	}
 	.logo img{
-	max-width: 100px;
+	max-width: 200px;
 	padding: 20px;
 	}
+	.blok-gebarentaal{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-areas: 
+	'text'
+	'info'
+	'video'
+}
+.blok-info{
+	grid-area: info;
+	width: 100%;
+	text-align: left;
+	margin-left: unset;
+
+}
+.blok-video iframe{
+	width: 95%;
+}
