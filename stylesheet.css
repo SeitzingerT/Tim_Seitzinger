@@ -57,7 +57,7 @@ hr{
 	grid-area: text;
 }
 #photo{
-	max-width: 100%;
+	width: 100%;
 }
 .blok-projecten{
 	margin-left: auto;
