@@ -28,7 +28,8 @@ hr{
 	margin-top: 100px;
 	margin-bottom: 25px;
 }
-.text1, .text2{
+.text1, .text2, .text3{
+	text-align: center;
 	color: white;
 	font-size: 35pt;
 	margin-block: auto;
@@ -122,6 +123,59 @@ hr{
 #title{
 	font-size: 20pt;
 }
+.blok-fotografie{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-areas: 
+	'text3 text3'
+	'infofoto fotos'
+}
+.blok-infofoto{
+	grid-area: infofoto;
+}
+.blok-fotos{
+	grid-area: fotos;
+}
+.text3{
+	grid-area: text3;
+}
+.content{
+	display: grid;
+	grid-template-columns: 40% 40%;
+	grid-template-areas: 
+	'1 2'
+	'3 4'
+	'5 6'
+	'7 8'
+}
+.content img{
+	max-width: 100%;
+}
+.1{
+	grid-area: 1;
+}
+.2{
+	grid-area: 2;
+}
+.3{
+	grid-area: 3;
+}
+.4{
+	grid-area: 4;
+}
+.5{
+	grid-area: 5;
+}
+.6{
+	grid-area: 6;
+}
+.7{
+	grid-area: 7;
+}
+.8{
+	grid-area: 8;
+}
+
 main{
 	width: 80%;
 	margin-left: auto;
