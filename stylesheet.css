@@ -35,6 +35,7 @@ hr{
 	margin-block: auto;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom: 30px;
 
 }
 .blok-gebarentaal{
@@ -132,6 +133,9 @@ hr{
 }
 .blok-infofoto{
 	grid-area: infofoto;
+    margin-left: 25%;
+    width: 50%;
+    text-align: right;
 }
 .blok-fotos{
 	grid-area: fotos;
