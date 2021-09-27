@@ -285,4 +285,24 @@ footer{
 iframe{
 	width: 100%;
 }
-
+.content{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-areas: 
+	'1'
+	'2'
+	'3'
+	'4'
+	'5'
+	'6'
+	'7'
+	'8'
+}
+.blok-fotografie{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-areas: 
+	'text3'
+	'infofoto'
+	'fotos'
+}
