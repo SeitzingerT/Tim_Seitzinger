@@ -126,10 +126,10 @@ hr{
 }
 .blok-fotografie{
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: 33% 33% 33%;
 	grid-template-areas: 
-	'text3 text3'
-	'infofoto fotos'
+	'text3 text3 text3'
+	'infofoto fotos pdf'
 }
 .blok-infofoto{
 	grid-area: infofoto;
@@ -140,8 +140,16 @@ hr{
 .blok-fotos{
 	grid-area: fotos;
 }
+.blok-pdf{
+	grid-area: pdf;
+}
 .text3{
 	grid-area: text3;
+}
+embed{
+	width: 375px;
+	height: 500px;
+
 }
 .content{
 	display: grid;
