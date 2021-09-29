@@ -148,10 +148,7 @@ hr{
 }
 object{
 	height: 100%;
-}
-embed{
-	width: 375px;
-	height: 500px;
+	width: 100%;
 
 }
 .content{
