@@ -146,6 +146,9 @@ hr{
 .text3{
 	grid-area: text3;
 }
+object{
+	height: 100%;
+}
 embed{
 	width: 375px;
 	height: 500px;
